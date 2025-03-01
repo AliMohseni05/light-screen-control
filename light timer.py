@@ -21,5 +21,5 @@ atexit.register(reset_brightness, original_brightness)
 # Simulate some work (e.g., sleep for 10 seconds)
 import time
 print("Application is running...")
-time.sleep(15)
+time.sleep(1500)
 print("Application finished.")
